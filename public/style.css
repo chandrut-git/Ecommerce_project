@@ -32,7 +32,10 @@ ul{
     display: none;
     padding-right: 10px;
 }
-
+.header img{
+    height:200px;
+    width:250px;
+}
 .side_nav{
     background-color: #1d232c;
     width: 50%;
@@ -141,7 +144,7 @@ margin-bottom: 30px;
   border: none;
 
 }
-.most_wanted img{
+.most_wanted img,#himg{
     height: 300px;
     width: 300px;
     border: solid rgb(254, 204, 204) 2px;
