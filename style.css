@@ -300,6 +300,7 @@ margin-bottom: 30px;
     .form{
         height: 400px;
         width: 300px;
+        padding-left: 10px;
     }
     .form h2{
         padding-left: 40px;
