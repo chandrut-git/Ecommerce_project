@@ -32,7 +32,10 @@ ul{
     display: none;
     padding-right: 10px;
 }
-
+.header img{
+    height:200px;
+    width:250px;
+}
 .side_nav{
     background-color: #1d232c;
     width: 50%;
