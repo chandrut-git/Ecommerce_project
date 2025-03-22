@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!--Nav-->
+  <nav class="nav">
+    <h1>E.com</h1>
+    <div class="nav_links">
+        <p class="nav_items"><a href="index.html">Home</a></p>
+        <p class="nav_items"><a href="collection.html">Collections</a></p>
+        <p class="nav_items"><a href="conatct.html">Contact</a></p>
+      
+        
+    </div>
+    <div class="nav_tog" onclick="opennav()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    </nav>
+    <div class="side_nav">
+        <p style="text-align: right;" onclick="closenav()"><i class="fa-solid fa-xmark"></i></p>
+        <div class="side_nav_links">
+        <p class="side_nav_items"><a href="index.html">Home</a></p>
+        <p class="side_nav_items"><a href="collection.html">Collections</a></p>
+        <p class="side_nav_items"><a href="conatct.html">Contact</a></p>
+       
+        </div>
+    </div>
+<!--Contact form-->
+<div class="form" id="form">
+  
+    <form class="fo"   >
+        <h2>Contact us</h2>
+        <label>Name</label>
+        <input id="name" type="text" placeholder="Enter your Name" class="small" >
+        <label>E-mail</label>
+        <input id="email" type="text" placeholder="Enter your email" class="small" >
+        <label>Message</label>
+        <div class="big">
+        <input id="msg" type="text" placeholder="Enter your message" >
+        </div>
+        <button type="submit">submit</button>
+    </form>
+   
+</div>
+<div id="thnx_msg" style="display: none;">
+    <h1>Thanks for your message! Keep supporting.</h1>
+  </div>
+<!--footer-->
+<div class="footer">
+    <div class="footer_container">
+        <div class="footer_container_1">
+            <h1 class="foot_text">E.com</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui expedita praesentium nisi
+            </p>
+            <div class="footer_icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+
+            </div>
+        </div>
+    </div>
+    <p>@2025 E.com</p>
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

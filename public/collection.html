@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!--Nav-->
+  <nav class="nav">
+    <h1>E.com</h1>
+    <div class="nav_links">
+        <p class="nav_items"><a href="index.html">Home</a></p>
+        <p class="nav_items"><a href="collection.html">Collections</a></p>
+        <p class="nav_items"><a href="conatct.html">Contact</a></p>
+       
+    </div>
+    <div class="nav_tog" onclick="opennav()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    </nav>
+    <div class="side_nav">
+        <p style="text-align: right;" onclick="closenav()"><i class="fa-solid fa-xmark"></i></p>
+        <div class="side_nav_links">
+        <p class="side_nav_items"><a href="index.html">Home</a></p>
+        <p class="side_nav_items"><a href="collection.html">Collections</a></p>
+        <p class="side_nav_items"><a href="conatct.html">Contact</a></p>
+        
+        </div>
+    </div>
+ <!--search-->
+ <div class="product_search">
+    <form  class="p_search">
+        <input type="text" id="search" placeholder="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </form>
+    <div class="products" id="products">
+        <div class="product_conatiner">
+            <img src="./assets/t9.avif" alt="Random Fashion Image">
+            <p>Rose shirt</p>
+        </div>
+        <div class="product_conatiner">
+            <img src="./assets/t10.avif" alt="">
+            <p>Trendy shirt</p>
+        </div>
+        <div class="product_conatiner">
+            <img src="./assets/t17.avif" alt="">
+            <p>working womens</p>
+        </div>
+        <div class="product_conatiner">
+            <img src="./assets/t12.avif" alt="">
+            <p>New mens style</p>
+        </div>
+        <div class="product_conatiner">
+            <img src="./assets/t13.avif" alt="">
+            <p>old looks</p>
+        </div>
+        <div class="product_conatiner">
+            <img src="./assets/t14.avif" alt="">
+            <p> womens Tshirt</p>
+        </div>
+        <div class="product_conatiner">
+            <img src="./assets/t15.avif" alt="">
+            <p>Trucking suits</p>
+        </div>
+        <div class="product_conatiner">
+            <img src="./assets/t16.avif" alt="">
+            <p>Old womens</p>
+        </div>
+    </div>
+ </div>
+<!--footer-->
+<div class="footer">
+    <div class="footer_container">
+        <div class="footer_container_1">
+            <h1 class="foot_text">E.com</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui expedita praesentium nisi
+            </p>
+            <div class="footer_icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+
+            </div>
+        </div>
+    </div>
+    <p>@2025 E.com</p>
+</div>
+
+    <script src="collection.js"></script>
+</body>
+
+</html>

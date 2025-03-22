@@ -1,0 +1,29 @@
+{
+  "name": "ecommerce_proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "collection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandrut-git/Ecommerce_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chandrut-git/Ecommerce_project/issues"
+  },
+  "homepage": "https://github.com/chandrut-git/Ecommerce_project#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.2",
+    "nodemon": "^3.1.9"
+  }
+}
